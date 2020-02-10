@@ -31,3 +31,24 @@ Example showing a letter each week, starting at week 7. For weeks other that 7-1
     }
   }
 }
+```
+
+
+Example with images and text for a few weeks and a default text for other weeks.
+
+![screenshot](https://user-images.githubusercontent.com/25268023/74151487-93ba4c80-4c0c-11ea-951d-d1a747c10f4d.png)
+```
+{
+	module: 'MMM-TextPerWeek',
+	position: 'bottom_right',
+	header: 'Animal of the Week',
+	config: {
+		texts: {
+			'default': 'No animal this week',
+			7: '<img src="https://img.icons8.com/color/48/000000/budgie.png" /><br />Budgie',
+			14: '<img src="https://img.icons8.com/color/48/000000/unicorn.png" /><br />Unicorn',
+			18: '<img src="https://img.icons8.com/color/48/000000/bee.png" /><br />Bee'
+		}
+	}
+},
+```
