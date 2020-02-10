@@ -15,26 +15,21 @@ Module.register('MMM-TextPerWeek', {
     },
 	},
 
-	getStyles: function() {
-		return [ 'modules/MMM-TextPerWeek/css/MMM-TextPerWeek.css' ];
-	},
-
 	getScripts: function() {
 		return ["moment.js"]
 	},
 
 	// Override dom generator.
 	getDom: function () {
-		var getLetter = () => {
+		var getText = () => {
 			var thisWeek = moment().week();
-			var letter = (this.config.texts.hasOwnProperty(thisWeek))
+			var txt = (this.config.texts.hasOwnProperty(thisWeek))
 				? this.config.texts[thisWeek]
 				: this.config.texts["default"];
-			return letter;
+			return txt;
 		};
 		var dom = document.createElement("div");
-		dom.innerHTML = getLetter();
-		//dom.classList.add("letterOfWeek")
+		dom.innerHTML = getText();
 		return dom;
 	},
 
