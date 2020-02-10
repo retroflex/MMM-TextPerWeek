@@ -1,6 +1,8 @@
 # MMM-TextPerWeek
 A [MagicMirror²](https://github.com/MichMich/MagicMirror) module that shows a different text (or image or anything really) each week.
 
+Thanks to [eouia](https://github.com/eouia) for writing the actual code! My contribution was just to upload it here on GitHub in case anyone else finds it useful.
+
 # Installation
 1. Clone repo:
 ```
