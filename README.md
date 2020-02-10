@@ -14,6 +14,7 @@ Thanks to [eouia](https://github.com/eouia) for writing the actual code! My cont
 
 # Examples
 Example showing a letter each week, starting at week 7. For weeks other that 7-10, nothing ('') is shown.
+![screenshot](https://user-images.githubusercontent.com/25268023/74150499-50f77500-4c0a-11ea-856f-99b35e621e90.png)
 ```
 {
   module: 'MMM-TextPerWeek',
