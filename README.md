@@ -8,4 +8,20 @@ A [MagicMirror²](https://github.com/MichMich/MagicMirror) module that shows a d
 	git clone https://github.com/retroflex/MMM-TextPerWeek
 ```
 
-2. Add the module to the ../MagicMirror/config/config.js, example:
+2. Add the module to the ../MagicMirror/config/config.js. Example showing a letter each week:
+```
+{
+  module: 'MMM-TextPerWeek',
+  position: 'bottom_right',
+  header: 'Letter of the Week',
+  config: {
+    texts: {
+      'default': '',
+      7: 'A',
+      8: 'B',
+      9: 'C',
+      10: 'D'
+    }
+  }
+}
+```
