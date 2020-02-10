@@ -33,8 +33,10 @@ Example showing a letter each week, starting at week 7. For weeks other that 7-1
 }
 ```
 
-<br/>
+<br />
 Example with images and text for a few weeks and a default text for other weeks.
+
+<br />
 
 ![screenshot](https://user-images.githubusercontent.com/25268023/74151487-93ba4c80-4c0c-11ea-951d-d1a747c10f4d.png)
 ```
