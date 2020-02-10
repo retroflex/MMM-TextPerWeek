@@ -12,7 +12,8 @@ Thanks to [eouia](https://github.com/eouia) for writing the actual code! My cont
 
 2. Add the module to the ../MagicMirror/config/config.js.
 
-Example showing a letter each week, starting at week 7:
+# Examples
+Example showing a letter each week, starting at week 7. For weeks other that 7-10, nothing ('') is shown.
 ```
 {
   module: 'MMM-TextPerWeek',
@@ -28,4 +29,3 @@ Example showing a letter each week, starting at week 7:
     }
   }
 }
-```
